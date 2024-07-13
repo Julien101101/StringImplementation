@@ -1,0 +1,55 @@
+Script started on Fri Jul 12 21:22:28 2024
+Restored session: Fri Jul 12 21:18:28 PDT 2024
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hddate[?2004l
+Fri Jul 12 21:22:29 PDT 2024
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hkksk  lls -l[?2004l
+total 168
+-rw-r--r--  1 juju  staff    486 Jul 12 20:30 Makefile
+-rw-r--r--@ 1 juju  staff   1103 Jul 12 21:06 hw04.cpp
+-rw-r--r--  1 juju  staff   1486 Jul 12 21:07 hw04.h
+-rw-r--r--  1 juju  staff  13144 Jul 12 21:12 hw04.o
+-rw-r--r--  1 juju  staff     43 Jul 12 21:22 hw04.src
+-rw-r--r--  1 juju  staff   7020 Jul 12 21:06 hw04f.cpp
+-rw-r--r--  1 juju  staff  38296 Jul 12 21:12 hw04f.o
+-rw-r--r--  1 juju  staff     11 Jul 12 21:12 input.txt
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hmmake all[?2004l
+g++ -std=c++11 -Wall -o hw04 hw04.o hw04f.o
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hmmake clean[?2004l
+rm -f hw04.o hw04f.o hw04
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hmmake cl  all[?2004l
+g++ -std=c++11 -Wall -c hw04.cpp -o hw04.o
+g++ -std=c++11 -Wall -c hw04f.cpp -o hw04f.o
+g++ -std=c++11 -Wall -o hw04 hw04.o hw04f.o
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hi lls -l[?2004l
+total 296
+-rw-r--r--  1 juju  staff    486 Jul 12 20:30 Makefile
+-rwxr-xr-x  1 juju  staff  65288 Jul 12 21:22 hw04
+-rw-r--r--@ 1 juju  staff   1103 Jul 12 21:06 hw04.cpp
+-rw-r--r--  1 juju  staff   1486 Jul 12 21:07 hw04.h
+-rw-r--r--  1 juju  staff  13144 Jul 12 21:22 hw04.o
+-rw-r--r--  1 juju  staff     43 Jul 12 21:22 hw04.src
+-rw-r--r--  1 juju  staff   7020 Jul 12 21:06 hw04f.cpp
+-rw-r--r--  1 juju  staff  38296 Jul 12 21:22 hw04f.o
+-rw-r--r--  1 juju  staff     11 Jul 12 21:12 input.txt
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hmmake -   m  ..,. ./hw04[?2004l
+Original: Hello
+Copy: Hello
+Copy constructor works: original and copy are different objects.
+Default Constructor: "", Length: 0
+Parameterized Constructor: "Hello", Length: 5
+Original: "Hello", Copy: "Hello", Length: 5
+Moved: "Hello", Length: 5
+str1: "Hello", str2: "Hello", Length: 5
+str2: "Hello", Length: 5
+Modified String: "hello", First Character: h
+Index of 'W': 6
+Index of "World": 6
+str1 == str2: True
+str1 == str3: False
+Concatenated String: "Hello World", Length: 11
+After Addition Assignment: "Hello World", Length: 11
+Original: Hello, Copied: Hello, Length: 5, Reverse: olleH
+Original: World, Copied: World, Length: 5, Reverse: dlroW
+Print Method Output: Hello
+Read Method Output: "Hello", Length: 5
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://juliens-mbp.lan/Users/juju/Desktop/s/cs1csummer2024/hw/04[0m[27m[24m[Jjuju@juliens-mbp 04 % [K[?2004hgghg  ggh g  ggit  g  h ggh repo create --l  -loce   icense mit --m public --repo    add-r readme
